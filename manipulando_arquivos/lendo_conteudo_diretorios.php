@@ -17,7 +17,7 @@
 			$info = pathinfo($filename);
 			$info["size"] = filesize($filename);
 			$info["modified"] = date("d/m/Y H:i:s", filemtime($filename));
-			$info["url"] = "http://localhost/treinamentophp/manipulando_arquivos/".str_replace("\\", "/", $filename);
+			$info["url"] = "http://localhost/treinamentophp/manipulando_arquivos/".$filename;
 
 			array_push($dados, $info);
 
