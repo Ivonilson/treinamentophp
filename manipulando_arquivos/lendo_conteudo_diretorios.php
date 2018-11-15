@@ -17,11 +17,11 @@
 			$info = pathinfo($filename);
 			$info["size"] = filesize($filename);
 			$info["modified"] = date("d/m/Y H:i:s", filemtime($filename));
-			$info["url"] = "http://localhost/treinamentophp/manipulando_arquivos/".$filename;
+			$info["url"] = "http:".DIRECTORY_SEPARATOR."localhost".DIRECTORY_SEPARATOR."treinamentophp".DIRECTORY_SEPARATOR."manipulando_arquivos".DIRECTORY_SEPARATOR.$filename;
 
 			array_push($dados, $info);
 
-			/*verificando o conteúdo retorno pela função pathinfo()*/
+			/*verificando o conteúdo retornado pela função pathinfo()*/
 			//var_dump($info);
 		}
 	}
