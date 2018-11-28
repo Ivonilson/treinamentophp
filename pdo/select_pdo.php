@@ -25,7 +25,7 @@
 			echo $row->nome."<br>";
 			$cont++;
 		}
-
+		
 		echo "<br>Registros encontrados: " .$cont;
 
 ?>
