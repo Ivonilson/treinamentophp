@@ -5,6 +5,7 @@
 
 	echo "<br>";
 
-	print_r(array_values($frutas));
+	/*Tem que rever, pois o comando não está comportando como esperado, ou seja, não está trazendo apenas o conteúdo do elemento... tá trazendo a chave também.*/
+	print_r(array_values($frutas)); 
 
 ?>
