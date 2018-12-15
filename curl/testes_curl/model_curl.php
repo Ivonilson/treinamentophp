@@ -1,5 +1,6 @@
 <?php  
 
+	
 	$cep = filter_input(INPUT_GET, 'ipt_cep');
 
 	$link = "https://viacep.com.br/ws/$cep/json/";
@@ -14,10 +15,5 @@
 	curl_close($chamar);
 
 	$dados = json_decode($response);
-
-	function limpar(){
-		 unsert($cep);
-		 return $cep;
-	}
 
 ?>
