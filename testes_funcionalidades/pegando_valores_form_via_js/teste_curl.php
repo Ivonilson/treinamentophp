@@ -1,13 +1,18 @@
 <script type="text/javascript">
 	
-	function verificarCep(){
 
+		var form = document.getElementById('form');
 		var cep = document.getElementById('cep');
+
+
+		form.addEventListener('submit', function(e){
+
+			alert(cep.value);
+
+			e.preventDefault();
+		});
+
 		alert(cep);
-
-	}
-
-	verificarCep();
 
 </script>
 

@@ -9,7 +9,7 @@
 	<title>FORMULÁRIO TESTE</title>
 </head>
 <body>
-	<form method="post">
+	<form method="post" name="form">
 		
 		Logradouro: <input type="text" name="ipt_logradouro">
 		<br><br>
@@ -19,7 +19,7 @@
 		<br><br>
 		UF: <input type="text" name="ipt_uf">
 		<br><br>
-		CEP: <input type="text" name="ipt_cep" id="cep">&nbsp<button onclick="VerificarCep()">Verficar CEP</button>
+		CEP: <input type="text" name="ipt_cep" id="cep">&nbsp<input type = "submit" value="Enviar">
 
 	</form>
 </body>
