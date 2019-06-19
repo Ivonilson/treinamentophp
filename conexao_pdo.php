@@ -16,6 +16,4 @@
 		print "NÃO CONECTOU: ".$e->getMessage()."<br>";
 	}
 
-	/*INSERI UM COMENTÁRIO AQUI*/
-
 ?>

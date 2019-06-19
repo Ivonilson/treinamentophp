@@ -34,7 +34,7 @@
 		<br><br>
 		<label>CEP: </label><input type="text" id="cep" name="ipt_cep" maxlength="9" placeholder="Digite o CEP" value="<?=@$cep?>">
 		<br><br>
-		<button type="submit">Enviar</button><input type="reset" value="Limpar" onclick="<?=limpar()?>"">
+		<button type="submit">Enviar</button>
 	</form>
 
 <script type="text/javascript" src="../bootstrap/js/bootstrap.min.js"></script>

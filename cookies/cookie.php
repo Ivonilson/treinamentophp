@@ -18,12 +18,8 @@ if(isset($_COOKIE['NOME_DO_COOKIE'])){
 	echo "<br>";
 	$obj = json_decode($_COOKIE['NOME_DO_COOKIE'], TRUE);
 
-
 	print_r($obj['responsavel']);
 
-
 }
-
-
 
 ?>
