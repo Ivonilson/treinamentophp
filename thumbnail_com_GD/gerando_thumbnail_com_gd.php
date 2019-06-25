@@ -1,7 +1,7 @@
 <?php
 header("Content-type: image/jpeg");
 
-$file = "imageTeste.jpg";s \
+$file = "imageTeste.jpg";
 
 
 //Nova largura e altura definidas para a imagem
