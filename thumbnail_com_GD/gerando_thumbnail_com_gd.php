@@ -5,7 +5,7 @@ $file = "imageTeste.jpg";
 
 
 //Nova largura e altura definidas para a imagem
-$new_width = 540;
+$new_width = 580;
 $new_height = 400;
 
 list($old_width, $old_height) = getimagesize($file);
