@@ -1,24 +1,19 @@
 <?php
 
+//header('Content-type:image/jpg');
+
 if(! extension_loaded('imagick')){
-	echo "Extensão não habilitada";
+	echo "Extensão não habilitada<br>";
 } else {
-	echo "Extensão Imagick habilitada para uso";
+	echo "Extensão Imagick habilitada para uso<br>";
 }
 
-echo phpinfo();
+$upload = $_SERVER['DOCUMENT_ROOT'].'/img1.jpg';
 
-$imagemOriginal = $_SERVER['DOCUMENT_ROOT'].'/img1.jpg';
+$imagem = new Imagick($upload);
 
-$imagemRedimensionada = new Imagick();
+$imagem->thumbnailImage(100, 100, true);
 
-$imagemRedimensionada->pingImage($imagemOriginal);
+$imagem->writeImage('C:\xampp\htdocs\Treinamentos\TreinamentoPHP\imagemagick\thumb100.jpg');
 
-$imagemRedimensionada->readImage($image);
-
-$imagemRedimensionada->thumbnailImage(200, 200, true);
-
-$imagemRedimensionada->writeImage($_SERVER['DOCUMENT_ROOT'].'/THUMB_imagem.jpg');
-
-$imagemOriginal->destroy();
 ?>
