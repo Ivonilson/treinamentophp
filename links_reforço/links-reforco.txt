@@ -1,0 +1,6 @@
+HERANÇA / INTERFACE 
+https://www.devmedia.com.br/como-criar-minha-primeira-classe-em-php/38895
+
+EXCEÇÕES
+https://www.devmedia.com.br/view/viewaula.php?idcomp=38967
+
