@@ -1,0 +1,10 @@
+CREATE TABLE IF NOT EXISTS `tbl_imagem` (
+	codigo int(8) NOT NULL PRIMARY KEY AUTO_INCREMENT, 
+	evento varchar(50) NOT NULL,
+	descricao varchar(255) NOT NULL,
+	nome_imagem varchar(25) NOT NULL,
+	tamanho_imagem varchar(25) NOT NULL,
+	tipo_imagem varchar(25) NOT NULL,
+	imagem longblob NOT NULL
+
+) engine = INNODB;
