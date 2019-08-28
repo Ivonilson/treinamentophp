@@ -1,5 +1,5 @@
 <?php
-header("Content-type: image/jpeg");
+//header("Content-type: image/jpeg");
 
 $file = "imageTeste.jpg";
 
@@ -15,7 +15,7 @@ $old_image = imagecreatefromjpeg($file);
 
 imagecopyresampled($new_image, $old_image, 0, 0, 0, 0, $new_width, $new_height, $old_width, $old_height);
 
-imagejpeg($new_image);
+imagejpeg($new_image, "nova.jpg");
 
 imagedestroy($old_image);
 imagedestroy($new_image);
