@@ -3,7 +3,6 @@
 
 $diretorio = "imagens";
 $pastaMov = "img-r";
-$imgAlvo = array();
 $newWidth = 500;
 $newHeight = 360;
 
