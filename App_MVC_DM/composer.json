@@ -1,0 +1,12 @@
+{
+	"autoload": {
+		"psr-4":{
+			"App\\": "App"
+		}
+	}
+}
+
+/*
+Para executar o código acima utilizando Composer, o comando é: composer install
+Para atualizar ou remover uma biblioteca com Composer, o comando é: composer update
+*/
