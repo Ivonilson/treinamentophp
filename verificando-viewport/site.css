@@ -1,0 +1,35 @@
+body {
+    font-family: 'Lato', sans-serif;
+}
+h2 {
+    text-align: center;
+}
+#posts {
+    margin: 0 auto;
+    padding: 0;
+    width: 700px;
+    list-style-type: none;
+}
+article p {
+    text-align: justify;
+    line-height: 1.5;
+    font-size: 1.1em;
+}
+#carregando {
+    display: none;
+    text-align: center;
+}
+.imagem-curso{
+    width:100%;
+}
+figure{
+    text-align: center;
+}
+ 
+ 
+@media screen and (max-width: 400px) {
+    article {
+        width: 44%;
+        margin-right: 0;
+    }
+}
