@@ -14,7 +14,7 @@ class Page {
 
 	public function __construct($opts = array()){
 
-		$this->options = array_merge($this->defaults, $this->options);
+		$this->options = array_merge($this->defaults, $opts);
 		
 		$config = array(
 			"tpl_dir"       => $_SERVER["DOCUMENT_ROOT"]."/views/",
@@ -35,7 +35,7 @@ class Page {
 	private function setData($data = array())
 	{
 
-		foreach ($this->options["data"] as $key => $value) {
+		foreach ($data as $key => $value) {
 			$this->tpl->assign($key, $value);
 		}
 
