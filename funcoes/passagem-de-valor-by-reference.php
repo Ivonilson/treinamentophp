@@ -1,9 +1,9 @@
 <?php 
 
 /*para efetuar a passagem de parâmetros by reference basta
-coloque o & antes da variável. Isso permitirá que as transformações
+cololcar o & antes da variável. Isso permitirá que as transformações
 realizadas 	pela função sobre a variável sejam válidas no contexto externo
-a função. Para verificar a difença do resultado no echo, basta retirar o $ antes da variável.*/
+a função. Para verificar a diferença do resultado no echo, basta retirar o $ antes da variável.*/
 function Incrementa(&$variavel, $valor){
 	$variavel += $valor;
 }
