@@ -9,10 +9,44 @@ body {
     display: grid;
     grid-template-rows: 120px 1fr 60px;
     grid-template-columns: 300 px 1fr;
-    grid-template-areas: "cabecalho cabecalho" "principal rodape" "principal rodape";
+    grid-template-areas: "cabecalho" "principal" "rodape";
 }
 
 .cabecalho {
     grid-area: cabecalho;
-    background-color: blue;
+    background-color: #1867c0;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10px;
+    z-index: 1;
+    box-shadow: 2px 3px 4px 0px rgba(0,0,0,0.62);
+}
+
+.cabecalho > h1 {
+    margin: 0px;
+    font-weight: 300;
+    font-size: 2.8rem;
+}
+
+.cabecalho > h2 {
+    margin: 0px;
+    font-weight: 200;
+    font-size: 1.6rem;
+}
+
+.principal {
+    grid-area: principal;
+    height: calc(100v - 180px);
+    background-color:#f0f0f0;
+    padding: 20px;
+}
+
+.rodape {
+    grid-area: rodape;
+    background-color: #fff;
+    /*position: sticky;
+    bottom: 0px;*/
 }
