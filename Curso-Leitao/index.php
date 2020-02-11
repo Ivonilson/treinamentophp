@@ -19,7 +19,7 @@
                 <div class="modulo verde">
                     <h3>Módulo 01 - Básico</h3>
                     <ul>
-                        <li><a href="#">Exercício A</a></li>
+                        <li><a href="exercicio.php">Exercício A</a></li>
                         <li><a href="#">Exercício B</a></li>
                         <li><a href="#">Exercício C</a></li>
                     </ul>
@@ -92,7 +92,7 @@
         </div>
     </main>
     <footer class="rodape">
-        COD3ER & ALUNOS 2019
+        COD3ER & ALUNOS <?=date('Y');?>
     </footer>
 </body>
 
