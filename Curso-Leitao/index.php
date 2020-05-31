@@ -24,7 +24,7 @@
                         <li><a href="exercicio.php?dir=basico&file=html">Integração HTML</a></li>
                         <li><a href="exercicio.php?dir=basico&file=css">Integração CSS</a></li>
                          <li><a href="exercicio.php?dir=basico&file=comentarios">Comentários PHP</a></li>
-                          <li><a href="exercicio.php?dir=basico&file=desafio">Desafio</a></li>
+                        <li><a href="exercicio.php?dir=basico&file=desafio">Desafio</a></li>
                     </ul>
                 </div>
 
@@ -36,6 +36,8 @@
                          <li><a href="exercicio.php?dir=tipos&file=aritmetica">Operações Aritméticas</a></li>
                          <li><a href="exercicio.php?dir=tipos&file=desafio_precedencia">Desafio precedência</a></li>
                          <li><a href="exercicio.php?dir=tipos&file=string">Tipo String</a></li>
+                         <li><a href="exercicio.php?dir=tipos&file=desafio_string">Desafio String</a></li>
+                         <li><a href="exercicio.php?dir=tipos&file=booleano">Tipo Booleano</a></li>
                     </ul>
                 </div>
 
