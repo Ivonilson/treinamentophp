@@ -34,5 +34,13 @@ if($idade < 18){
     echo "Terceira idade = $idade anos<br>";
 }
 
+/*Operador spaceship - Mais utilizado para ordenação - Se o primeiro número for maior que o segundo retorna 1, se forem iguais retorna 0,
+se o segundo número for maior, retorna -1*/
+echo '<hr>';
+var_dump(5 <=> 8);
+echo '<hr>';
+//Para verificar o retorno booleano de um caractere basta adicionar um duplo sinal de exclamação a frente !!.
+var_dump(!!0);
+
 
 
