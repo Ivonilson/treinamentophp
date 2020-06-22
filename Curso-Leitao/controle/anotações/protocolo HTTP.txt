@@ -1,0 +1,16 @@
+08 métodos do protocolo HTTP:
+- GET
+- POST
+- PUT
+- DELETE
+- TRACE
+- OPTIONS
+- CONNECT
+- HEAD
+
+Grupos de status de mensagens do HTTP:
+- 100: INFORMAÇÃO
+- 200: SUCESSO
+- 300: REDIRECIONAMENTO
+- 400: ERRO NO CLIENTE
+- 500: ERRO NO SERVIDOR
