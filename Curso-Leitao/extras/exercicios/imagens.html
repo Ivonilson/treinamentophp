@@ -75,13 +75,40 @@
         }
     }
 
-    const p = document.querySelector('[wm-slider] > p')
-    //p.style.display = 'block'
+    /*const p = document.querySelector('[wm-slider] > p')
+    p.style.display = 'block'
 
-   /* mover(p, 1500, -550, 5, () => {
+    mover(p, 1500, -550, 5, () => {
         console.log("Terminou!!!")
     })*/
 
+    function slider () {
+        //o querySelectorAll retorna um node list
+        const elementos = document.querySelectorAll('[wm-slider] > p')
+        //o Array tem a propriedade Array.from que converte o node list em um array convencional
+        const slides = Array.from(elementos)
+        exibirSlide(slides, slides[0])
+    }
 
+    function exibirSlide(slides, slide){
+        slide.style.display = 'block'
+
+        const inicio = innerWidth
+        const fim = -slide.clientWidth
+
+        slide.style.left = `${inicio}px`
+
+        mover(slide, inicio, fim, 1, () => {
+           slide.style.display = 'none'
+           exibirSlide(slides, getProximo(slides, slide))
+        })
+    }
+
+    function getProximo(lista, atual) {
+        const i = lista.indexOf(atual) + 1
+        return i < lista.length ? lista[i] : lista[0]
+    }
+
+    slider()
 
 </script>
