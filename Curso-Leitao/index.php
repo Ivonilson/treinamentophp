@@ -22,6 +22,8 @@
                     <h3>5. Array</h3>
                     <ul>
                         <li><a href="exercicio.php?dir=array&file=basico">Array</a></li>
+                        <li><a href="exercicio.php?dir=array&file=mapa-array">Mapa</a></li>
+                        <li><a href="exercicio.php?dir=array&file=desafio-indice">Desafio Indice</a></li>
                     </ul>
                 </div>
 
